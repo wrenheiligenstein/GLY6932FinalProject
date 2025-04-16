@@ -1,3 +1,5 @@
 # GLY6932FinalProject
-
-lalalal
+## Project Description
+## Running the Code
+## Figures
+lalalala
