@@ -3,8 +3,11 @@
 ### Scientific Motivation
 The objective of this study is to develop an algorithm that will accurately predict whether someone will be happier in STEM or humanities related fields. I found by talking to graduate students in the astronomy department at the University of Florida that nearly everyone was a cat person (I'm a dog person).  It made me start to think about how different personalitiy types might be drawn towards certain degrees. I also began to think about how these different personalities might "fit" better into different fields than what they may have chosen based on their aptitude, and how someone could be happier studying one thing or another based on their personality.  The goal was to create a quiz that can help someone decide which major they will be happier in based not on their skills at the topic nut based on their personality traits.   
 ### Methods
+First, a google form was created where responders could indicate their field (STEM or Humanities) and indicate how happy they are in their program on a scale from 1 to 10.  These two questions were followed up by a 16-question personality quiz and a spot to optionally leave their name.  I sent the form out to the UF Astronomy graduate student discord server as well as my private instagram and snapchat stories. 64 responses were collected. The link to the google form can be found below.  
+
 https://docs.google.com/forms/d/1bBo0hlouJN3QrFRpEU04ECniBK3M4BEyQcH4wOiNaPE/edit#question=2128487999&field=108525739
 
+I then converted the form into a CSV file to use in Google Collab.  The csv file used to make the algorithm can be found under "STEMvsHumanities.csv" in this repository.  Most of the functions used for this algorithm were imported from SciKit Learn.  After performing a PCA on the data, I decided to only use the first 10 principal components out of 16 as they contained 90% of the variance.  After splitting these 10 components into training and test data  
 ## Accessing the Data
 ## Running the Code
 ## Figures
