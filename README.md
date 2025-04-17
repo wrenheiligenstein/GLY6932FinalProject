@@ -19,21 +19,21 @@ Aside from this, there are no other dependencies other than what is imported in 
 ## Figures
 <img width="609" alt="Screenshot 2025-04-16 at 15 36 54" src="https://github.com/user-attachments/assets/bf0b35bc-31f9-4813-89ad-bdeed4d62209" />
 
-_Figure 1._ 
+_Figure 1. Google form response summary showing number of responses_ 
 
 Figures 1 and 2 give details about google form responses.  Figure 1 shows that there were 64 responses in total,  with 84.4% being STEM majors and 15.6% being humanities majors.  Due to this uneven number, balanced class weights were used for the logistic regression model. 
 Figure 2 shows a histogram for the different rating people gave their overall happiness in their program.  Due to the high number of data points with happiness ranked 8 or higher, this was the cutoff decided on for points to be used for the algorithm.  
 
 <img width="621" alt="Screenshot 2025-04-16 at 15 43 50" src="https://github.com/user-attachments/assets/3cdcb6d8-a24f-4c13-9812-b73ca95f1b4a" />
 
-_Figure 2._
+_Figure 2. Google form response summary showing happiness rankings_
 
 <img width="417" alt="Screenshot 2025-04-16 at 15 44 05" src="https://github.com/user-attachments/assets/7edcde51-bf00-49ce-a271-cf1e618d725c" />
 
-_Figure 3._
+_Figure 3. Histogram of algorithm's F1 scores for 200 iterations including average value_
 
 Figures 3 and 4 show measurements of how well the algorithm performed on the testing data.  The program was ran 200 times with different splits of training and test data, and histograms were created of the accuracy and f1 scores for each split.  The average value was also taken for these metrics to get a general idea of how well the algorithm typically performs. Having more data points would likely reduce the width of these distributions, as the split would have less of an effect. The accuracy is measured by taking the number of correct predictions over the number of total predicitons.  The f1 score is calculated using both the harmonic mean of precision and recall.  Generally, the algorithm does well based on these 2 metrics, but the imbalance between the classes may still be having an effect.  More data is needed to determined how strong of a link their is between personality and happiness in a particular field.  
 
 <img width="429" alt="Screenshot 2025-04-16 at 15 44 19" src="https://github.com/user-attachments/assets/30acf61f-9a3b-4709-8834-b46d011865b4" />
 
-_Figure 4._
+_Figure 4. Histogram of algorithm's accuracy scores for 200 iterations including average value_
