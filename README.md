@@ -3,6 +3,8 @@
 ### Scientific Motivation
 The objective of this study is to develop an algorithm that will accurately predict whether someone will be happier in STEM or humanities related fields. I found by talking to graduate students in the astronomy department at the University of Florida that nearly everyone was a cat person (I'm a dog person).  It made me start to think about how different personalitiy types might be drawn towards certain degrees. I also began to think about how these different personalities might "fit" better into different fields than what they may have chosen based on their aptitude, and how someone could be happier studying one thing or another based on their personality.  The goal was to create a quiz that can help someone decide which major they will be happier in based not on their skills at the topic nut based on their personality traits.   
 ### Methods
+https://docs.google.com/forms/d/1bBo0hlouJN3QrFRpEU04ECniBK3M4BEyQcH4wOiNaPE/edit#question=2128487999&field=108525739
+
 ## Accessing the Data
 ## Running the Code
 ## Figures
