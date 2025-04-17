@@ -13,6 +13,7 @@ The quiz manifested as a user friendly function with instructions for the user t
 ## Accessing the Data
 The csv file used to make the algorithm can be found under "STEMvsHumanities.csv" in this repository.
 ## Running the Code
+
 ## Figures
 <img width="609" alt="Screenshot 2025-04-16 at 15 36 54" src="https://github.com/user-attachments/assets/bf0b35bc-31f9-4813-89ad-bdeed4d62209" />
 <img width="621" alt="Screenshot 2025-04-16 at 15 43 50" src="https://github.com/user-attachments/assets/3cdcb6d8-a24f-4c13-9812-b73ca95f1b4a" />
